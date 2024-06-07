@@ -7,6 +7,8 @@ import Notification from "./Notification";
 import Tools from "./Tools";
 import Cards from "./Cards";
 import Testimonials from "./Testimonials";
+import DownloadAppSection from "./DownloadAppSection";
+import FAQ from "./FAQ";
 
 function Home() {
   return (
@@ -19,6 +21,8 @@ function Home() {
       <Tools/>
       <Cards/>
       <Testimonials/>
+      <DownloadAppSection/>
+      <FAQ/>
     </div>
   );
 }

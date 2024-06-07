@@ -17,8 +17,10 @@ function Savings() {
         <CustomButtonRightArrow>All Features</CustomButtonRightArrow>
       </div>
       <div className="flex w-full gap-8">
-        {SAVING.map((saving, idx) => (
-          <div className="flex flex-col">
+        {SAVING.map((saving) => (
+          <div
+          key={saving?.title}
+          className="flex flex-col">
             <img
               className="w-44 h-44 mt-24"
               src={saving?.src}

@@ -57,6 +57,8 @@ export const FEATURES = [
 
 export const TRANSACTIONS = new URL("/src/assets/transactions.png",import.meta.url).href
 export const TICK_MARK_DARK = new URL("/src/assets/badge_tick_mark_dark.png",import.meta.url).href
+export const TICK_MARK_LIGHT = new URL("/src/assets/badge_tick_mark_light.png",import.meta.url).href
+export const TICK_MARK_TRANSPARENT = new URL("/src/assets/badge_tick_mark_transparent.png",import.meta.url).href
 
 export const CHECKLIST = ["Malesuada Ipsum", "Vestibulum", "Parturient Lorem"]
 
@@ -88,7 +90,6 @@ export const SAVING = [
   },
 ];
 
-export const TICK_MARK_LIGHT = new URL("/src/assets/badge_tick_mark_light.png",import.meta.url).href
 export const NOTIFICATION = new URL("/src/assets/notification.png",import.meta.url).href
 
 export const TOOLS_SUPPORT = new URL("/src/assets/tools.png",import.meta.url).href
@@ -99,3 +100,45 @@ export const CARDS = new URL("/src/assets/cards.png",import.meta.url).href
 export const RATING = new URL("/src/assets/badge_rating.png",import.meta.url).href
 
 export const TESTIMONIALS = new URL("/src/assets/testimonials.png", import.meta.url).href
+
+export const DOWNLOAD_APP_BENEFITS = ["Instant transactions", "Payments worldwide", "Saving accounts", "100% mobile banking"]
+
+export const APP_STORE = new URL("/src/assets/app_store.png", import.meta.url).href
+export const GOOGLE_STORE = new URL("/src/assets/google_store.png", import.meta.url).href
+export const MOBILE_APP = new URL("/src/assets/mobile_app.png", import.meta.url).href
+
+export const SUPPORT = [
+  {
+    src: new URL("/src/assets/phone.png", import.meta.url).href,
+    title: "+49 176 123 456",
+    desc: "Support Hotline",
+  },
+  {
+    src: new URL("/src/assets/email.png", import.meta.url).href,
+    title: "help@banquee.com",
+    desc: "Support Email",
+  },
+]
+
+export const FAQ = [
+  {
+    Q: "How do I open an Banko account?",
+    A: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+  },
+  {
+    Q: "How do I order a new card?",
+    A: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+  },
+  {
+    Q: "How to change my account limits?",
+    A: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+  },
+  {
+    Q: "How does Banko premium works?",
+    A: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+  },
+  {
+    Q: "Can I have two Banko accounts?",
+    A: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+  },
+]
