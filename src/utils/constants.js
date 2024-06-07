@@ -54,3 +54,7 @@ export const FEATURES = [
     desc: "Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.",
   },
 ];
+
+export const TRANSACTIONS = new URL("/src/assets/transactions.png",import.meta.url).href
+export const TICK_MARK = new URL("/src/assets/badge_tick_mark.png",import.meta.url).href
+export const TRANSACTION_CHECKLIST = ["Malesuada Ipsum", "Vestibulum", "Parturient Lorem"]

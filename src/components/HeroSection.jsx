@@ -5,7 +5,7 @@ import VerticalCards from "./VerticalCards";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col items-center justify-center bg-[#E8F2EE] w-full font-semibold">
+    <div className="flex flex-col items-center justify-center bg-[#E8F2EE] w-full">
       <div className="flex flex-col items-center pt-40 pb-20 w-full">
         <span className="text-lg">Features</span>
         <h1 className="text-7xl leading-relaxed">All in one card.</h1>
@@ -16,7 +16,7 @@ function HeroSection() {
         </h4>
         <div className="flex items-center justify-between w-1/4 mt-10 text-[#5BB5A2]">
           <CustomButton className="text-lg">Open Account</CustomButton>
-          <span className="flex items-center gap-4 text-lg">Compare Cards<ArrowRightIcon className="w-6"/></span>
+          <button className="flex items-center gap-4 text-lg">Compare Cards<ArrowRightIcon className="w-6"/></button>
         </div>
       </div>
       <VerticalCards/>
