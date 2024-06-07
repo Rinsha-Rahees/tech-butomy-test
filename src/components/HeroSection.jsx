@@ -1,6 +1,5 @@
 import React from "react";
-import CustomButton from "../utils/CustomButton";
-import { ArrowRightIcon } from "@heroicons/react/16/solid";
+import CustomButton, { CustomButtonRightArrow } from "../utils/CustomButton";
 import VerticalCards from "./VerticalCards";
 
 function HeroSection() {
@@ -14,9 +13,9 @@ function HeroSection() {
           <br />
           Sagittis vitae et leo duis ut diam.
         </h4>
-        <div className="flex items-center justify-between w-1/4 mt-10 text-[#5BB5A2]">
+        <div className="flex items-center justify-between w-1/4 mt-10">
           <CustomButton className="text-lg">Open Account</CustomButton>
-          <button className="flex items-center gap-4 text-lg">Compare Cards<ArrowRightIcon className="w-6"/></button>
+          <CustomButtonRightArrow>Compare Cards</CustomButtonRightArrow>
         </div>
       </div>
       <VerticalCards/>

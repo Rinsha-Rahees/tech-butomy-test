@@ -58,3 +58,31 @@ export const FEATURES = [
 export const TRANSACTIONS = new URL("/src/assets/transactions.png",import.meta.url).href
 export const TICK_MARK = new URL("/src/assets/badge_tick_mark.png",import.meta.url).href
 export const TRANSACTION_CHECKLIST = ["Malesuada Ipsum", "Vestibulum", "Parturient Lorem"]
+
+export const SAVING = [
+  {
+    src: new URL("/src/assets/saving_laptop.png",import.meta.url).href,
+    title: "New Laptop",
+    price: "400$",
+  },
+  {
+    src: new URL("/src/assets/saving_bike.png", import.meta.url).href,
+    title: "Dream Bike",
+    price: "200$",
+  },
+  {
+    src: new URL("/src/assets/saving_airplane.png", import.meta.url).href,
+    title: "Holiday",
+    price: "14000$",
+  },
+  {
+    src: new URL("/src/assets/saving_camera.png", import.meta.url).href,
+    title: "Camera",
+    price: "100$",
+  },
+  {
+    src: new URL("/src/assets/saving_more.png", import.meta.url).href,
+    title: "",
+    price: "",
+  },
+];

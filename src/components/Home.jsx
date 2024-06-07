@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "./HeroSection";
 import Features from "./Features";
 import Transactions from "./Transactions";
+import Savings from "./Savings";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <HeroSection />
       <Features />
       <Transactions />
+      <Savings/>
     </div>
   );
 }

@@ -9,7 +9,7 @@ function Header() {
         <h3 className=" font-bold text-[32px] text-[#5BB5A2]">banquee.</h3>
         <Nav/>
         <div className="flex items-center gap-6 text-lg">
-          <span className="text-[#5BB5A2]">Login</span>
+          <button className="text-[#5BB5A2]">Login</button>
           <CustomButton className="text-base">Open Account</CustomButton>
         </div>
       </div>
