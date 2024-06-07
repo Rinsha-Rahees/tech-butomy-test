@@ -19,23 +19,38 @@ export const VERTICAL_CARDS = [
 export const PHONE_APP = new URL("/src/assets/phone_app.png", import.meta.url)
   .href;
 
-export const FEATURES_CARDS = [
+export const FEATURES = [
   {
-    src: new URL("/src/assets/card_instant_transactions.png", import.meta.url).href,
+    badge: new URL(
+      "/src/assets/badge_instant_transactions.png",
+      import.meta.url
+    ).href,
+    title: "Instant transactions",
+    desc: "Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.",
   },
   {
-    src: new URL("/src/assets/card_saving_accounts.png", import.meta.url).href,
+    badge: new URL("/src/assets/badge_saving_accounts.png", import.meta.url).href,
+    title: "Saving accounts",
+    desc: "Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.",
   },
   {
-    src: new URL("/src/assets/card_mobile_banking.png", import.meta.url).href,
+    badge: new URL("/src/assets/badge_mobile_banking.png", import.meta.url).href,
+    title: "Mobile banking",
+    desc: "Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.",
   },
   {
-    src: new URL("/src/assets/card_advanced_statistics.png", import.meta.url).href,
+    badge: new URL("/src/assets/badge_advanced_statistics.png", import.meta.url).href,
+    title: "Advanced statistics",
+    desc: "Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.",
   },
   {
-    src: new URL("/src/assets/card_virtual_cards.png", import.meta.url).href,
+    badge: new URL("/src/assets/badge_virtual_cards.png", import.meta.url).href,
+    title: "Virtual cards",
+    desc: "Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.",
   },
   {
-    src: new URL("/src/assets/card_contactless_payments.png", import.meta.url).href,
+    badge: new URL("/src/assets/badge_contactless_payments.png",import.meta.url).href,
+    title: "Contactless payments",
+    desc: "Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.",
   },
 ];

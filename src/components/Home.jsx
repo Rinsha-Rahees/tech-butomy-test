@@ -4,7 +4,7 @@ import Features from "./Features";
 
 function Home() {
   return (
-    <div className="flex flex-col items-center mt-[74px] w-full">
+    <div className="flex flex-col items-center w-full">
       <HeroSection />
       <div className="w-full max-w-[75%]">
         <Features />
