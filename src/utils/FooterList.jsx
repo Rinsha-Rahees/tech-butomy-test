@@ -3,7 +3,7 @@ import { FOOTER_ITEMS } from "../utils/constants";
 
 function FooterList() {
   return (
-    <div className="flex flex-col w-2/3">
+    <div className="flex flex-col items-center">
       <ul className="grid grid-cols-4 gap-3">
         {FOOTER_ITEMS?.titles.map((title) => (
           <button className="text-left mb-2">

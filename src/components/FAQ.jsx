@@ -5,9 +5,9 @@ import FAQDisclosure from "../utils/FAQDisclosure";
 
 function FAQ() {
   return (
-    <div className="flex justify-between items-start w-full max-w-[75%] pt-40 pb-20">
-      <div className="flex flex-col w-full gap-6">
-        <h1 className="text-7xl mb-5">Need Help?</h1>
+    <div className="flex flex-col items-center xl:flex-row xl:justify-between xl:items-start w-full max-w-[75%] pt-32 xl:pt-40 pb-20">
+      <div className="flex flex-col items-center xl:items-start w-full gap-6">
+        <h1 className="text-5xl lg:text-7xl mb-5">Need Help?</h1>
         {SUPPORT.map((support) => (
           <div 
           key={support?.title}
@@ -19,7 +19,7 @@ function FAQ() {
             </div>
           </div>
         ))}
-        <CustomButtonRightArrow>Support</CustomButtonRightArrow>
+        <CustomButtonRightArrow className="my-5 xl:my-0">Support</CustomButtonRightArrow>
       </div>
       <FAQDisclosure/>
     </div>

@@ -6,7 +6,7 @@ import { FAQ } from './constants'
 function FAQDisclosure() {
   return (
     <div className="h-full w-full">
-      <div className="w-full max-w-lg divide-y-2 divide-[#E8E8E8] rounded-xl">
+      <div className="w-full divide-y-2 divide-[#E8E8E8] rounded-xl">
         {FAQ.map((faq) => (
             <Disclosure as="div" className="py-6">
             <DisclosureButton className="group flex w-full items-center justify-between">

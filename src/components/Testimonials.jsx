@@ -3,10 +3,10 @@ import { RATING, TESTIMONIALS } from "../utils/constants";
 
 function Testimonials() {
   return (
-    <div className="flex flex-col w-full max-w-[75%] py-40">
+    <div className="flex flex-col items-center text-center xl:text-left w-full max-w-[75%] py-28 xl:py-40">
       <span className="text-xl my-5">Testimonials</span>
-      <div className="flex justify-between items-end">
-        <h1 className="text-7xl max-w-2xl">
+      <div className="flex flex-col items-center gap-5 xl:gap-0 xl:flex-row xl:justify-between xl:items-end">
+        <h1 className="text-5xl lg:text-7xl max-w-2xl">
           People all over the world use banko.
         </h1>
         <div className="flex items-center gap-2">
@@ -16,7 +16,7 @@ function Testimonials() {
         </div>
       </div>
       <div className="flex">
-        <img className="w-fit h-fit mt-16" src={TESTIMONIALS} alt="User rating and testimonials"/>
+        <img className="w-fit h-fit mt-10 xl:mt-16" src={TESTIMONIALS} alt="User rating and testimonials"/>
       </div>
     </div>
   );

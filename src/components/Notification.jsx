@@ -8,10 +8,10 @@ import {CustomButtonRightArrow} from "../utils/CustomButton"
 
 function Notification() {
   return (
-    <div className="flex justify-between items-center w-full pt-32 max-w-[75%]">
-      <div className="flex flex-col">
+    <div className="flex flex-col items-center text-center xl:text-left xl:flex-row xl:justify-between w-full pt-32 max-w-[75%]">
+      <div className="flex flex-col items-center xl:items-start">
         <span className="text-xl mb-5">Notifications</span>
-        <h1 className="text-7xl">Stay notified</h1>
+        <h1 className="text-5xl lg:text-7xl">Stay notified</h1>
         <h4 className="text-lg my-10 leading-relaxed max-w-md">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -25,7 +25,7 @@ function Notification() {
             </li>
           ))}
         </ul>
-        <CustomButtonRightArrow>Compare Cards</CustomButtonRightArrow>
+        <CustomButtonRightArrow className="mb-12 xl:mb-0">Compare Cards</CustomButtonRightArrow>
       </div>
       <img src={NOTIFICATION} alt="Notification Screenshot" />
     </div>
