@@ -6,7 +6,7 @@ import VerticalCards from "./VerticalCards";
 function HeroSection() {
   return (
     <div className="flex flex-col items-center justify-center bg-[#E8F2EE] w-full font-semibold">
-      <div className="flex flex-col items-center my-24 w-full">
+      <div className="flex flex-col items-center my-20 w-full">
         <span className="text-lg">Features</span>
         <h1 className="text-7xl leading-relaxed">All in one card.</h1>
         <h4 className="text-xl text-center leading-relaxed">
