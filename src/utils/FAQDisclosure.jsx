@@ -1,7 +1,7 @@
 import React from 'react'
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { PlusIcon } from '@heroicons/react/16/solid'
-import { FAQ } from '../utils/constants'
+import { FAQ } from './constants'
 
 function FAQDisclosure() {
   return (

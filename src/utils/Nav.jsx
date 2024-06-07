@@ -1,5 +1,5 @@
 import React from "react";
-import DropDownMenu from "./DropDownMenu";
+import DropDownMenu from "../components/DropDownMenu";
 
 function Nav() {
   return (

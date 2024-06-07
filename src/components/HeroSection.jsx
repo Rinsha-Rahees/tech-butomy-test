@@ -1,6 +1,6 @@
 import React from "react";
 import CustomButton, { CustomButtonRightArrow } from "../utils/CustomButton";
-import VerticalCards from "./VerticalCards";
+import VerticalCards from "../utils/VerticalCards";
 
 function HeroSection() {
   return (

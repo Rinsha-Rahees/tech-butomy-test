@@ -9,6 +9,7 @@ import Cards from "./Cards";
 import Testimonials from "./Testimonials";
 import DownloadAppSection from "./DownloadAppSection";
 import FAQ from "./FAQ";
+import Blog from "./Blog";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <Testimonials/>
       <DownloadAppSection/>
       <FAQ/>
+      <Blog/>
     </div>
   );
 }

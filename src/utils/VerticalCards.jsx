@@ -1,5 +1,5 @@
 import React from "react";
-import { VERTICAL_CARDS } from "../utils/constants";
+import { VERTICAL_CARDS } from "./constants";
 
 function VerticalCards() {
   return (

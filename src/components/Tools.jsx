@@ -3,7 +3,8 @@ import { TICK_MARK_LIGHT, TOOLS, TOOLS_SUPPORT } from "../utils/constants";
 
 function Tools() {
   return (
-    <div className="flex items-end w-full pt-40 gap-32 max-w-[75%]">
+    <div className="flex flex-col items-center w-full">
+        <div className="flex items-end w-full py-40 gap-32 max-w-[75%]">
       <div className="flex flex-col w-full">
         <img className="mb-10" src={TOOLS_SUPPORT} alt="Tools support company logos" />
         <span className="text-xl my-5">Tools</span>
@@ -21,6 +22,8 @@ function Tools() {
           </li>
         ))}
       </ul>
+    </div>
+    <hr className="w-full" />
     </div>
   );
 }

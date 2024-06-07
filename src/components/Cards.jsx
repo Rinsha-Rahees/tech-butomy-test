@@ -14,7 +14,7 @@ function Cards() {
         Sagittis vitae et leo duis ut diam.
       </h4>
       <img className="mt-14" src={CARDS} alt="Cards Collection" />
-      <div className="flex justify-between pt-12 gap-4">
+      <div className="flex justify-between pt-12 w-1/3 ga">
       <CustomButton>Open Account</CustomButton>
       <button className="p-2 px-4 border-2 border-[#E8E8E8] rounded-lg">Compare Cards</button>
       </div>
