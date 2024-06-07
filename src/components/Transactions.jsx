@@ -1,8 +1,8 @@
 import React from "react";
 import {
-  TICK_MARK,
+  TICK_MARK_DARK,
   TRANSACTIONS,
-  TRANSACTION_CHECKLIST,
+  CHECKLIST,
 } from "../utils/constants";
 
 function Transactions() {
@@ -16,17 +16,17 @@ function Transactions() {
             eiusmod tempor incididunt ut labore et.
           </h4>
           <ul className="flex flex-col gap-3">
-            {TRANSACTION_CHECKLIST.map((checklist, idx) => (
+            {CHECKLIST.map((checklist, idx) => (
               <li 
               key={checklist + "_" + idx}
               className="flex gap-4">
-                <img src={TICK_MARK} alt="Checklist tick mark" />
+                <img src={TICK_MARK_DARK} alt="Checklist tick mark" />
                 <p>{checklist}</p>
               </li>
             ))}
           </ul>
         </div>
-        <img className="" src={TRANSACTIONS} alt="Transactions Screenshot" />
+        <img src={TRANSACTIONS} alt="Transactions Screenshot" />
       </div>
     </div>
   );

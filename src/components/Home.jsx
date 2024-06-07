@@ -3,6 +3,8 @@ import HeroSection from "./HeroSection";
 import Features from "./Features";
 import Transactions from "./Transactions";
 import Savings from "./Savings";
+import Notification from "./Notification";
+import Tools from "./Tools";
 
 function Home() {
   return (
@@ -11,6 +13,8 @@ function Home() {
       <Features />
       <Transactions />
       <Savings/>
+      <Notification/>
+      <Tools/>
     </div>
   );
 }

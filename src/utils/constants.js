@@ -56,8 +56,9 @@ export const FEATURES = [
 ];
 
 export const TRANSACTIONS = new URL("/src/assets/transactions.png",import.meta.url).href
-export const TICK_MARK = new URL("/src/assets/badge_tick_mark.png",import.meta.url).href
-export const TRANSACTION_CHECKLIST = ["Malesuada Ipsum", "Vestibulum", "Parturient Lorem"]
+export const TICK_MARK_DARK = new URL("/src/assets/badge_tick_mark_dark.png",import.meta.url).href
+
+export const CHECKLIST = ["Malesuada Ipsum", "Vestibulum", "Parturient Lorem"]
 
 export const SAVING = [
   {
@@ -86,3 +87,9 @@ export const SAVING = [
     price: "",
   },
 ];
+
+export const TICK_MARK_LIGHT = new URL("/src/assets/badge_tick_mark_light.png",import.meta.url).href
+export const NOTIFICATION = new URL("/src/assets/notification.png",import.meta.url).href
+
+export const TOOLS_SUPPORT = new URL("/src/assets/tools.png",import.meta.url).href
+export const TOOLS = ["Secure and encrypted integration", "Fully API interface", "Payments worldwide"]
