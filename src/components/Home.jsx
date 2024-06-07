@@ -5,6 +5,8 @@ import Transactions from "./Transactions";
 import Savings from "./Savings";
 import Notification from "./Notification";
 import Tools from "./Tools";
+import Cards from "./Cards";
+import Testimonials from "./Testimonials";
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
       <Savings/>
       <Notification/>
       <Tools/>
+      <Cards/>
+      <Testimonials/>
     </div>
   );
 }

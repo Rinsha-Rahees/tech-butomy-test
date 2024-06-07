@@ -14,7 +14,7 @@ function Features() {
               key={feature?.badge + "_" + idx}
               className="flex flex-col border-2 p-6 w-[235px] h-[220px] border-[#E8E8E8] rounded-2xl">
               <img className="w-[45px]" src={feature?.badge} />
-              <h4 className="leading-5 py-2 text-lg w-1/2">{feature?.title}</h4>
+              <h4 className="leading-5 py-2 text-lg w-1/2">{feature?.title + " icon"}</h4>
               <p className=" text-sm">{feature?.desc}</p>
             </div>
           ))}

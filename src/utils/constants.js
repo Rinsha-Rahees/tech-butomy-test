@@ -93,3 +93,9 @@ export const NOTIFICATION = new URL("/src/assets/notification.png",import.meta.u
 
 export const TOOLS_SUPPORT = new URL("/src/assets/tools.png",import.meta.url).href
 export const TOOLS = ["Secure and encrypted integration", "Fully API interface", "Payments worldwide"]
+
+export const CARDS = new URL("/src/assets/cards.png",import.meta.url).href
+
+export const RATING = new URL("/src/assets/badge_rating.png",import.meta.url).href
+
+export const TESTIMONIALS = new URL("/src/assets/testimonials.png", import.meta.url).href
