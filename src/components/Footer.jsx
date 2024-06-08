@@ -3,7 +3,7 @@ import FooterList from "../utils/FooterList";
 
 function Footer() {
   return (
-    <div className="flex flex-col w-full md:max-w-[85%] px-2 md:px-0 py-10 font-semibold">
+    <div className="flex flex-col w-full md:max-w-[85%] px-2 md:px-0 pb-10 pt-4 md:pt-10 font-semibold">
       <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between pt-8 pb-16">
         <h3 className="mb-12 lg:mb-0 font-bold text-[32px] text-[#5BB5A2]">banquee.</h3>
         <FooterList />
