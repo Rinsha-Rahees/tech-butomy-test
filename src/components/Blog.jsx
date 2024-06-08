@@ -11,9 +11,9 @@ function Blog() {
           <h1 className="text-5xl lg:text-7xl mb-5">Blog</h1>
           <CustomButtonRightArrow>All articles</CustomButtonRightArrow>
         </div>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-3 gap-2 md:gap-8">
           {BLOGS.map((blog, idx) => (
-            <button><img src={blog?.src} alt={blog?.src +"_" + idx} /></button>
+            <button><img className="w-fit h-fit" src={blog?.src} alt={blog?.src +"_" + idx} /></button>
           ))}
         </div>
       </div> 

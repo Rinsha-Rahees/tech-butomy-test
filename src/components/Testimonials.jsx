@@ -15,8 +15,8 @@ function Testimonials() {
           </p>
         </div>
       </div>
-      <div className="flex">
-        <img className="w-fit h-fit mt-10 xl:mt-16" src={TESTIMONIALS} alt="User rating and testimonials"/>
+      <div className="flex items-center justify-center">
+        <img className="w-full h-fit mt-10 xl:mt-16" src={TESTIMONIALS} alt="User rating and testimonials"/>
       </div>
     </div>
   );
