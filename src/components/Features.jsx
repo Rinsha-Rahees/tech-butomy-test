@@ -13,7 +13,7 @@ function Features() {
             <div
               key={feature?.badge + "_" + idx}
               className="flex flex-col items-center lg:items-start border-2 p-6 w-fit h-fit lg:w-[235px] lg:h-[220px] border-[#E8E8E8] rounded-2xl">
-              <img className="w-[45px]" src={feature?.badge} />
+              <img className="w-[45px]" src={feature?.badge} alt="Features badge icon"/>
               <h4 className="leading-5 py-2 text-lg lg:w-1/2">{feature?.title}</h4>
               <p className=" text-sm">{feature?.desc}</p>
             </div>
